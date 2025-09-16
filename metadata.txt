@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MGRS EBGeo
+qgisMinimumVersion=3.0
+description=Capturar coordenadas, gerar grid e geometrias MGRS
+version=0.1
+author=Thiago Kretzer Bechtold
+email=bechtold.thiago@ime.eb.br
+
+about=Este plugin fornece ferramentas para trabalhar com o sistema de referência de grade militar (MGRS) no QGIS. Seu objetivo é facilitar a visualização, conversão e interação com coordenadas MGRS em projetos espaciais. O plugin busca simplificar tarefas como localizar pontos a partir de referências MGRS, converter entre sistemas de coordenadas e apoiar fluxos de trabalho em que o MGRS é o sistema de referência padrão.
+
+tracker=https://github.com/ThiagoKretzer/MGRS/issues
+repository=https://github.com/ThiagoKretzer/MGRS
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/ThiagoKretzer/MGRS
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
